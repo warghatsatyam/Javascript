@@ -1,3 +1,7 @@
+printAll('Cat','Dog','Lion')
+printAll('A','B','C','D','E','F')
+
+// Because of Hoisting it is working correctly we can call the function,variable before the declaration of the same
 
 function greetings(msg="Hello"){
     console.log(msg)
@@ -16,3 +20,4 @@ function printAll(){
 
 printAll('Cat','Dog','Lion')
 printAll('A','B','C','D','E','F')
+
