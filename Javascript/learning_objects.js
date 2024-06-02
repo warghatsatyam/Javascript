@@ -63,3 +63,8 @@ console.log(student);
 
 console.log(student["address"]["city"]);
 console.log(student["address"]["pin_code"]);
+
+// Array as Objects
+
+let arr1 = [10,20,30]
+console.log(typeof arr1);
