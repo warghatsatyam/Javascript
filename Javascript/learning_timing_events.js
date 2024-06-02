@@ -24,4 +24,24 @@ clearInterval(intervalId)
 
 */
 
+// setTimeout()
 
+set_timeout_id =  setTimeout(()=>{
+    console.log("hello");
+},2000);
+
+// setInterval()
+
+
+count=0
+set_interval_id = setInterval(()=>{
+    count++;
+    console.log("Count is ",count);
+},1500)
+
+
+clearInterval(set_interval_id)
+clearTimeout(set_timeout_id)
+
+// here the execution of this two statement is executed immedately because the above two things have
+// delay of 2sec and 1.5 sec Before it the below to clearInteral and clearTimeout is executed
