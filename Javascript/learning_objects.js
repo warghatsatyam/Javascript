@@ -45,3 +45,21 @@ obj3 = {
 for (item in obj3){
     console.log(item, "-->" ,obj3[item]);
 }
+
+
+// Nested Objects
+
+let student = {
+    name:"Satyam",
+    age:25,
+    phone_number:7045053925,
+    address:{
+        city:"Kalyan",
+        pin_code:421306,
+    }
+}
+
+console.log(student);
+
+console.log(student["address"]["city"]);
+console.log(student["address"]["pin_code"]);
